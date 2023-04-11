@@ -126,9 +126,12 @@
 
 1.  ### What is React?
 
-    React(aka React.js or ReactJS) is an **open-source front-end JavaScript library** that is used for building composable user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps based on components in a declarative approach. 
+    React is a popular open-source JavaScript library used for building user interfaces (UI) in web applications. It was developed by Facebook and is widely used by developers around the world. React allows developers to create complex UI components by breaking them down into smaller, reusable parts called "components".
+
+    One of the key features of React is its virtual DOM (Document Object Model), which allows developers to write code in a more declarative style, making it easier to reason about and maintain. React also supports server-side rendering, which can improve website performance and search engine optimization (SEO).
+
+    React is often used in combination with other technologies such as Redux, React Router, and webpack to create scalable and maintainable web applications. It has a large and active community, with many resources available for learning and development.
     
-    React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
 
     **[⬆ Back to Top](#table-of-contents)**
 
