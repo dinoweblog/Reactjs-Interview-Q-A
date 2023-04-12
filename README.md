@@ -136,7 +136,7 @@
 
 2.  ### What is JSX?
 
-    _JSX_ stands for _JavaScript XML_ and it is an XML-like syntax extension to ECMAScript. Basically it just provides the syntactic sugar for the `React.createElement(type, props, ...children)` function, giving us expressiveness of JavaScript along with HTML like template syntax.
+    JSX (JavaScript XML) is a syntax extension for JavaScript, which allows developers to write HTML-like code in their JavaScript files. JSX is most commonly used with React, where it enables developers to write reusable, declarative components that can be used to build user interfaces for web applications.
 
     In the example below, the text inside `<h1>` tag is returned as JavaScript function to the render function.
 
@@ -161,17 +161,24 @@
     }
     ```
 
-     <details><summary><b>See Class</b></summary>
+     <!-- <details><summary><b>See Class</b></summary> -->
+3. ### When to use a Class Component over a Function Component?
+    An `Element` is a plain JavaScript object that describes a component instance or a DOM node and its properties (props) and children. An element can be either a React component, a built-in HTML element, or a custom element.
+
+    A `component` is a reusable piece of code that represents a part of the user interface (UI) and can have its own logic and state. It can be a function component, which is a simple function that returns an element, or a class component, which is a JavaScript class that extends the React.Component class and has its own state and lifecycle methods.
+
      <p>
 
     ```jsx harmony
-    class App extends React.Component {
-      render() {
-        return (
-            <h1 className="greeting">{"Hello, this is a JSX Code!"}</h1>
-        );
-      }
+    
+    // Element
+    const element = <h1>Hello, world!</h1>;
+
+    // Component
+    function Greeting(props) {
+        return <h1>Hello, {props.name}!</h1>;
     }
+
     ```
 
      </p>
