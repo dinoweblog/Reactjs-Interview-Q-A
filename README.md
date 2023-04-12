@@ -161,7 +161,7 @@
     }
     ```
 
-     <!-- <details><summary><b>See Class</b></summary> -->
+     <!-- <details><summary><b>See Class</b></summary> </details>-->
 
 3.  ### What is the difference between Element and Component?
    
@@ -184,8 +184,37 @@
     ```
 
      </p>
-     </details>
+     
+4. ### How to create components in React?
 
+    #### Function Components
+    A function component is a simpler and more concise way to define a component in React. It is essentially a JavaScript function that returns a React element. Here's an example of a simple function component that displays a greeting:
+
+    ```jsx harmony
+    
+    import React from 'react';
+
+    function Greeting(props) {
+        return <h1>Hello, {props.name}!</h1>;
+    }
+
+    ```
+
+    #### Class Components
+    A class component is a more powerful and flexible way to define a component in React. It is a JavaScript class that extends the React.Component class and implements a render method. Here's an example of a simple class component that displays a greeting:
+
+    ```jsx harmony
+    
+    import React from 'react';
+
+    class Greeting extends React.Component {
+        render() {
+            return <h1>Hello, {this.props.name}!</h1>;
+        }
+    }
+
+
+    ```
 
     **[⬆ Back to Top](#table-of-contents)**
 
