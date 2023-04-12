@@ -162,7 +162,8 @@
     ```
 
      <!-- <details><summary><b>See Class</b></summary> -->
-3. ### When to use a Class Component over a Function Component?
+
+3.  ### What is the difference between Element and Component?
    
     An `Element` is a plain JavaScript object that describes a component instance or a DOM node and its properties (props) and children. An element can be either a React component, a built-in HTML element, or a custom element.
 
