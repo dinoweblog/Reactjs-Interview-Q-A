@@ -10,7 +10,8 @@
 | :star: | [What is React?](#what-is-react)                                                                                                                                                                                                 |
 | :star: | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
 | :star: | [What is JSX?](#what-is-jsx)                                                                                                                                                                                                     |
-| :star: | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component)                                                                                                                   |
+| :star: | [What is the difference between function components and class components?](#what-is-the-difference-between-function-components-and-class-components)
+| :star: | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component)                                                                                                                      |
 | :star: | [How to create components in React?](#how-to-create-components-in-react)                                                                                                                                                         |
 | :star: | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component)                                                                                                             |
 | :star: | [What are Pure Components?](#what-are-pure-components)                                                                                                                                                                           |
@@ -184,8 +185,10 @@
     ```
 
      </p>
+
+4. ### What is the difference between function components and class components?
      
-4. ### How to create components in React?
+5. ### How to create components in React?
 
     #### Function Components
     A function component is a simpler and more concise way to define a component in React. It is essentially a JavaScript function that returns a React element. Here's an example of a simple function component that displays a greeting:
