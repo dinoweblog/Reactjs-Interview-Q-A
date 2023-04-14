@@ -224,7 +224,10 @@
 
     `Hooks`: Function components can use Hooks, a feature introduced in React 16.8, which allow you to use state and other React features without using a class component.
 
+6. ### What are Pure Components?
+   
+    In React, a PureComponent is a subclass of Component that provides a performance optimization when your component's props and state don't change frequently. A PureComponent is essentially the same as a regular Component, except that it implements a shouldComponentUpdate() method that performs a shallow comparison of the props and state of the component to determine whether it needs to be re-rendered.
 
     **[⬆ Back to Top](#table-of-contents)**
 
-6. 
+7. 
