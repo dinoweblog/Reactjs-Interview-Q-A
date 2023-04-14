@@ -163,6 +163,8 @@
 
      <!-- <details><summary><b>See Class</b></summary> </details>-->
 
+     **[⬆ Back to Top](#table-of-contents)**
+
 3.  ### What is the difference between Element and Component?
    
     An `Element` is a plain JavaScript object that describes a component instance or a DOM node and its properties (props) and children. An element can be either a React component, a built-in HTML element, or a custom element.
@@ -184,6 +186,8 @@
     ```
 
      </p>
+
+     **[⬆ Back to Top](#table-of-contents)**
 
 4. ### What is the difference between function components and class components?
 
@@ -214,6 +218,8 @@
     }
 
     ```
+    **[⬆ Back to Top](#table-of-contents)**
+
 5. ### When to use a Class Component over a Function Component?
 
     Function components are generally preferred over class components in React for several reasons:
@@ -224,10 +230,14 @@
 
     `Hooks`: Function components can use Hooks, a feature introduced in React 16.8, which allow you to use state and other React features without using a class component.
 
+    **[⬆ Back to Top](#table-of-contents)**
+
 6. ### What are Pure Components?
    
     In React, a PureComponent is a subclass of Component that provides a performance optimization when your component's props and state don't change frequently. A PureComponent is essentially the same as a regular Component, except that it implements a shouldComponentUpdate() method that performs a shallow comparison of the props and state of the component to determine whether it needs to be re-rendered.
 
     **[⬆ Back to Top](#table-of-contents)**
 
-7. 
+
+
+
