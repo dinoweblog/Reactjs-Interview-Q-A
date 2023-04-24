@@ -244,23 +244,23 @@
 
     State in React is managed using the `useState` hook, which is a built-in hook provided by React. The `useState` hook allows you to define and manage state variables within a functional component. It takes an initial value as an argument and returns an array with two elements: the current state value and a function to update the state value. 
 
-        ```jsx harmony
+    ```jsx harmony
     
     import React, { useState } from 'react';
 
     const Counter = () => {
-    const [count, setCount] = useState(0); // Define and initialize state
+        const [count, setCount] = useState(0); // Define and initialize state
 
-    const increment = () => {
-        setCount(count + 1); // Update state
-    };
+        const increment = () => {
+            setCount(count + 1); // Update state
+        };
 
-    return (
-        <div>
-            <p>Count: {count}</p>
-            <button onClick={increment}>Increment</button>
-        </div>
-    );
+        return (
+            <div>
+                <p>Count: {count}</p>
+                <button onClick={increment}>Increment</button>
+            </div>
+        );
     };
 
     export default Counter;
